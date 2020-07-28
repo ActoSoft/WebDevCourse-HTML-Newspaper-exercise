@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoticiOSO  -  Contactanos</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="Menu-container">
+                <img 
+                    src="/images/Logo_trasnparente.png" 
+                    alt="Logo"
+                    class="photo-logo"
+                >
+                <img 
+                    src="/images/Nombre_trasnparente.png" 
+                    alt="Nombre periodico"
+                >
+                <p class="Titulos">C o n t a c t a n o s</p>
+                <nav>
+                    <a href="index.html" class="nav-botones">Inicio</a>
+                    <a href="Deportes.html" class="nav-botones">Deportes</a>
+                    <a href="Internacional.html" class="nav-botones">Internacional</a>
+                    <a href="Contacto.html" class="nav-botones">Contactanos</a>
+                </nav>
+        
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <h1>Ponte en contacto con nosotros</h1>
+        <!-- enctype="multipart/form-data Sirve para poder enviar varios tipos de datos, no solo texto-->
+        <form action="#" method="GET" enctype="multipart/form-data">
+            <div>
+                <label for="Nombre">Nombre</label>
+                <Input 
+                    type="Text" 
+                    name="Nombre" 
+                    id="Nombre"
+                    placeholder="Teclee su Nombre"
+                    maxlength="50"
+                    minlength="4"
+                >
+            </div>
+            <div>
+                <label for="age">Edad</label>
+                <input 
+                    type="number" 
+                    name="age" 
+                    id="age"
+                    max="99"
+                    min="2"
+                >
+            </div>
+            <div>
+                <label for="gender">Genero</label>
+                <select name="gender" id="gender">
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                    <option value="other">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="Profesion">Profesión</label>
+                <Input 
+                    type="Text" 
+                    name="Profesion" 
+                    id="Profesion"
+                    placeholder="Teclee su Profesion"
+                    maxlength="80"
+                    minlength="4"
+                >
+            </div>
+            <br>
+            <div>
+                <P>Elige tus temas preferidos</P>
+                <label for="Futbol">Futbol</label>
+                <input type="checkbox" name="deportes" id="Futbol">
+                <label for="Basquetbol">Basquetbol</label>
+                <input type="checkbox" name="Basquetbol" id="Basquetbol">
+                <label for="EU">Estados Unidos</label>
+                <input type="checkbox" name="EU" id="EU">
+                <label for="Europa">Europa</label>
+                <input type="checkbox" name="Europa" id="Europa">
+                <label for="Otro">Otro. Especifique</label>
+                <input type="checkbox" name="Otro" id="Otro">
+                <Input 
+                    type="Text" 
+                    name="Especifico" 
+                    id="Especifico"
+                    placeholder="Agregue sus preferencias"
+                    maxlength="200"
+                    minlength="4"
+                >
+            </div>
+            <div>
+                <P>Tu opinión nos ayuda a mejorar este espacio, agradecemos tus comentarios.</P>
+                <textarea name="Opinion" id="Opinion" cols="50" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="mail">E mail</label>
+                <input 
+                    type="email" 
+                    name="mail" 
+                    id="mail"
+                >
+            </div>
+            <input type="submit" value="Enviar datos" >
+        </form>
+    </main>
+    <footer class="footer">
+        <img 
+        src="/images/Logo_trasnparente.png" 
+        alt="Logo"
+        class="photo-logo"
+        >
+        <p>Derechos reservados Omar Osorio 2020</p>
+        
+    </footer>
+</body>
+</html>

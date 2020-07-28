@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Rajdhani:wght@500&display=swap');
+
+.main-text-container {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.Logo-container {
+    width: 15%;
+    margin: 0;
+    padding: 0px;
+    width: 0px;
+}  
+
+.Menu-container {
+    text-align: center;
+    width: 85%;
+    margin: 0px; 
+}
+
+.main-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: tomato;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.Titulos{
+    color: teal;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Subtitulos{
+    color: teal;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+}
+
+.photo-logo{
+    width: 10vh;
+    margin: 0px 50px;
+    padding: 0px 0px;
+    text-align: left;
+}
+.nav-botones{   
+    display: inline-block;
+    background: #000fff;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.nav-botones:hover{
+    background: gray; 
+}
+
+.footer{
+    width: 100%;
+    padding: 30px 30px;
+    text-align: center;
+    background-color: black;   
+    color: teal;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: small;
+}
