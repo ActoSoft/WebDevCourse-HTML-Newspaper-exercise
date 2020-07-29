@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <header>
+    <header class="Header-general">
         <section>
             <div class="Menu-container">
                 <img 
@@ -31,12 +31,13 @@
         </section>
 
     </header>
-    <main>
+    <main class="Body-general">
         <h1>Ponte en contacto con nosotros</h1>
         <!-- enctype="multipart/form-data Sirve para poder enviar varios tipos de datos, no solo texto-->
         <form action="#" method="GET" enctype="multipart/form-data">
-            <div>
-                <label for="Nombre">Nombre</label>
+        <dt>
+            <dt>Nombre</dt>
+            <dd>
                 <Input 
                     type="Text" 
                     name="Nombre" 
@@ -45,9 +46,10 @@
                     maxlength="50"
                     minlength="4"
                 >
-            </div>
-            <div>
-                <label for="age">Edad</label>
+            </dd>
+            <br>
+            <dt>Edad</dt>
+            <dd>
                 <input 
                     type="number" 
                     name="age" 
@@ -55,17 +57,19 @@
                     max="99"
                     min="2"
                 >
-            </div>
-            <div>
-                <label for="gender">Genero</label>
+            </dd>
+            <br>
+            <dt>Genero</dt>
+            <dd>
                 <select name="gender" id="gender">
                     <option value="male">Masculino</option>
                     <option value="female">Femenino</option>
                     <option value="other">Otro</option>
                 </select>
-            </div>
-            <div>
-                <label for="Profesion">Profesión</label>
+            </dd>
+            <br>
+            <dt>Profesión</dt>
+            <dd>
                 <Input 
                     type="Text" 
                     name="Profesion" 
@@ -74,10 +78,10 @@
                     maxlength="80"
                     minlength="4"
                 >
-            </div>
+            </dd>
             <br>
-            <div>
-                <P>Elige tus temas preferidos</P>
+            <dt>Elige los temas de tu preferencia</dt>
+            <dd>
                 <label for="Futbol">Futbol</label>
                 <input type="checkbox" name="deportes" id="Futbol">
                 <label for="Basquetbol">Basquetbol</label>
@@ -96,21 +100,27 @@
                     maxlength="200"
                     minlength="4"
                 >
-            </div>
-            <div>
-                <P>Tu opinión nos ayuda a mejorar este espacio, agradecemos tus comentarios.</P>
+            </dd>
+            <br>
+            <dt>Tu opinión nos ayuda a mejorar este espacio, agradecemos tus comentarios</dt>
+            <dd>
                 <textarea name="Opinion" id="Opinion" cols="50" rows="10"></textarea>
-            </div>
-
-            <div>
-                <label for="mail">E mail</label>
+            </dd>
+            <br>
+            <dt>E mail</dt>
+            <dd>
                 <input 
                     type="email" 
                     name="mail" 
                     id="mail"
                 >
-            </div>
-            <input type="submit" value="Enviar datos" >
+            </dd>
+        </dt>
+        <br>
+        <br>
+        <input type="submit" value="Enviar datos" >
+        <input type="reset" value="Reiniciar el formulario" >
+        <br>
         </form>
     </main>
     <footer class="footer">

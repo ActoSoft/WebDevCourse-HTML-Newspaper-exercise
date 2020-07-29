@@ -34,15 +34,19 @@
     color: teal;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
-    font-size: xx-large;
+    font-size: 45px;
 }
 
 .Subtitulos{
-    color: teal;
+    color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
-    font-size: large;
+    font-size: 30px;
 }
-
+.Secciones{
+    color:#000000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
 .photo-logo{
     width: 10vh;
     margin: 0px 50px;
@@ -70,4 +74,12 @@
     color: teal;
     font-family: 'Rajdhani', sans-serif;
     font-size: small;
+}
+.Body-general{
+    background-color:teal;   
+    width: 100%;
+    color: #ffffff;
+}
+.Header-general{
+    background-color: #000000;
 }
