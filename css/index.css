@@ -40,12 +40,12 @@
 .Subtitulos{
     color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 .Secciones{
     color:#000000;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 .photo-logo{
     width: 10vh;
@@ -60,6 +60,8 @@
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 10%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
 }
 
 .nav-botones:hover{
@@ -79,6 +81,8 @@
     background-color:teal;   
     width: 100%;
     color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
 }
 .Header-general{
     background-color: #000000;
